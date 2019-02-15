@@ -1,0 +1,119 @@
+/*  -----------GERAL----------- */
+.table-striped tbody tr:nth-of-type(odd) {
+background-color: rgba(0,0,0,.05);
+}
+
+.ti { /*Formatacao titulo*/
+font-family: 'Megrim', cursive;
+font-size: 112px;
+}
+
+.tbtable {
+font-family: "Semi-Coder-Regular", Times, serif;
+font-style: normal;
+opacity: .4;  
+}
+
+.data {
+color: #2F4F4F;
+}
+
+.code {
+font-family: Raleway-Regular;
+}
+
+.link {
+color: #4169E1;
+}
+
+.link:hover {
+color: #778899;
+}
+
+.def { /*ul paginacao*/
+font-family: "Arial";
+}
+/*  -----------GERAL----------- */
+/*  -----------TAG----------- */
+html {
+    height: 100%;
+}
+body {
+font-family: 'Coming Soon', cursive;
+/*font-family: "InFormal_Style_Regular";*/
+font-style: normal;
+font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+.porcet {
+    height: 100%;
+}
+
+th {
+font-weight: normal;
+}
+/*  -----------TAG----------- */
+
+/*  -----------FONT----------- */
+@font-face {
+font-family: 'Circuitboard';
+src: url('fonts/Circuitboard.otf');
+}
+@font-face {
+font-family: 'dataunifon';
+src: url('fonts/data-unifon.ttf');
+}
+@font-face {
+font-family: 'Semi-Coder-Regular';
+src: url('fonts/Semi-Coder-Regular.otf');
+}
+@font-face {
+font-family: 'InFormal_Style_Regular';
+src: url('fonts/InFormal_Style_Regular.otf');
+}
+@font-face {
+font-family: 'Raleway-Regular';
+src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Where My Keys';
+src: url('fonts/WhereMyKeys.otf');
+}
+/*  -----------FONT----------- */
+.nav-top {
+    background-color: #383838;
+    color: #fff;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .5s;
+  }
+  
+  .nav-top:hover {
+    background-color: #696969;
+    cursor: pointer;
+  }
+  
+  .nav-top.hiddenn {
+    right: -10rem;
+  }
+  
+  .nav-top .fa-chevron-up {
+    width: 2rem;
+    height: 2rem;
+    fill: #fff;
+  }
+
+.hiddenn {
+  opacity: 0;
+}
