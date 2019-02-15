@@ -141,7 +141,7 @@ function filterShellcode()
     for (let elemento = 0; elemento < codeViews.length; elemento++)
     {
         let tds = codeViews[elemento].querySelectorAll('td')
-        let texto = tds[4].lastElementChild.text
+        let texto = tds[3].lastElementChild.text
         if (texto == "")
         {
             codeViews[elemento].className = 'codeclass'
